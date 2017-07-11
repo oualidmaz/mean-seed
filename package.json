@@ -1,0 +1,24 @@
+{
+  "name": "mean-seed",
+  "version": "1.0.0",
+  "description": "MEAN App with Angular 4 & angular CLI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js && concurrently --kill-others",
+    "stop": "killall node"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "concurrently": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2",
+    "mongoose-unique-validator": "^1.0.5",
+    "morgan": "^1.8.1"
+  },
+  "author": "Oualid Mazouzi",
+  "license": "MIT"
+}
